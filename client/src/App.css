@@ -1,0 +1,55 @@
+body {
+  font-family: Nunito 300;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+p {
+  font-weight: 500;
+  font-size: 14px;
+}
+h1 {
+  font-size: 52px;
+  width: 450px;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/* for all section */
+.home {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.first {
+  display: flex;
+  flex: 0.5;
+  height: 100vh;
+}
+.second {
+  display: flex;
+  flex: 0.5;
+  height: 100vh;
+}
+@media (max-width: 900px) {
+  p {
+    font-weight: 500;
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 32px;
+    width: 350px;
+  }
+}

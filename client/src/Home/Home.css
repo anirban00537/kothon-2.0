@@ -1,0 +1,87 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+.Home {
+  text-decoration: none;
+}
+.second_mobile_part {
+  padding-top: 70px;
+  background-color: #f9fac7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent_home_first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.first_home {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  background: url("./kothon-bg-1.svg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%;
+  width: 400px;
+  height: 400px;
+}
+.slogan {
+  padding: 70px 70px;
+}
+/* .slogan > h1 {
+  font-size: 2.29rem;
+  font-family: Nunito Bold 700;
+} */
+.slogan_p {
+  font-weight: 500;
+}
+.btn_getIt {
+  background-color: #1283b3;
+  color: #fff;
+}
+
+/* second */
+
+.image_second_mobile {
+  display: flex;
+  background: url("./kothon-illustration-1.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 900px) {
+  .home {
+    flex-direction: column;
+  }
+  .image_second_mobile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background: url("./kothon-illustration-1.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+  }
+  .first_home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    background: url("./kothon-bg-1.svg");
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    width: 400px;
+    height: 400px;
+  }
+}

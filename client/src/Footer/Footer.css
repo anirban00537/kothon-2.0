@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #f9fac7;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+.rights {
+  font-weight: 500;
+}
+.iconField {
+  padding: 8px;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fac7;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    padding: 100px;
+  }
+}
